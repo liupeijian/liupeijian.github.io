@@ -1,0 +1,27 @@
+span.highlight {
+	background: red;
+}
+
+h1 {
+	color: black; 
+	font-size: 45px; 
+	text-align: center
+}
+
+body {
+	background-image: url("background.jpg"); 
+	text-indent: 2em;
+	margin: 0px,auto;
+	width: 900px; 
+	font-size: 24px; 
+	margin: 0 auto;
+}
+
+li {
+	color: red;
+}
+
+p:first-letter {
+	color: red; 
+	font-size: 40px
+}
