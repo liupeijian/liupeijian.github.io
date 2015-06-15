@@ -9,7 +9,7 @@ h1 {
 }
 
 body {
-	
+	background-image: url(background.jpg);
 	text-indent: 2em;
 	margin: 0px,auto;
 	width: 900px; 
@@ -22,6 +22,6 @@ li {
 }
 
 p:first-letter {
-	color: red; 
+	
 	font-size: 40px
 }
