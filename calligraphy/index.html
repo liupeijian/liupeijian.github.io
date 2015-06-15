@@ -73,8 +73,18 @@
 	<br>
 	<p>
 	3、一般执笔有两种方式：五指执笔法和三指执笔法。如图：
+	<script type="text/javascript">  
+	var id = 1;  
+  
+	function next() {  
+    id = (id + 1) % 6;  
+    document.getElementById("image").src = './' + id + '.jpg'; //动态设定src  
+    console.log(id);  
+	}  
+  
+	</script>  
 	<div align="center">
-		<img src="1.jpg">
+		<img id="image" onclick="next()" src="1.jpg">
 
 	</div>
 	
