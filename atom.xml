@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liupeijian.com/"/>
-  <updated>2015-06-16T10:57:24.459Z</updated>
+  <updated>2015-06-16T14:00:55.851Z</updated>
   <id>http://liupeijian.com/</id>
   
   <author>
@@ -13,6 +13,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Git基本操作]]></title>
+    <link href="http://liupeijian.com/2015/06/16/Github%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>http://liupeijian.com/2015/06/16/Github基本操作/</id>
+    <published>2015-06-16T13:54:15.000Z</published>
+    <updated>2015-06-16T14:00:55.851Z</updated>
+    <content type="html"><![CDATA[<p>看过好几遍有关于git的基本操作，看完没有用，很快就忘记了，我目前在用的git操作写成笔记，以后方便查阅，以后再用到git的其他操作再不断地添加进来。</p>
+<p>git init<br>//把这个目录变成git可以管理的仓库。</p>
+<p>git add readme.txt<br>//用git add告诉git，把文件添加到仓库。</p>
+<p>git commit -m “wrote a readme file”<br>//用git commit告诉git，把文件提交到仓库。<br>//-m后面输入的是本次提交的说明。</p>
+<p>git status<br>//时刻掌握仓库当前的状态。</p>
+<p>git diff readme.txt<br>//查看上一次的修改的内容。</p>
+<p>git log<br>//显示从最近到最远的提交日记。</p>
+<p>git reset —hard HEDA~n<br>//往上返回第n个版本。HEAD表示当前版本。HEAD~1表示上一个版本。</p>
+<p>git reflog<br>//用来记录你的每一次命令。</p>
+<p>git reset —hard (commit id)<br>//指定回到未来的某个版本。</p>
+<p>working directory<br>//电脑里能看到的目录，比如learngit文件夹就是一个工作区。</p>
+<p>repository版本库<br>//工作区有一个隐藏目录.git,这个不算工作区，而是git的版本库。<br>//版本库里有stage（暂存区）和git为我们创建的第一个分支master，以及指向master的一个指针HEAD.</p>
+<p>//git add把文件添加进去，实际上是把文件修改添加到暂存区。<br>//git commit提交更改，实际上是把暂存区的所有内容提交到当前分支。</p>
+<p>git管理的是修改。每次修改，如果不先add到暂存区，就不会加入到commit中。</p>
+<p>git checkout — readme.txt<br>//把readme.txt文件在工作区的修改全部撤销：<br>1：readme.txt自修改还没有被放到暂存区，现在，撤销修改回到喝版本库一模一样的状态；<br>2: readme.txt已经添加到暂存区后，又作了修改，撤销修改回到添加到暂存区后的状态。<br>总之，就是让这个文件回到最近一个git commit或git add时的状态。</p>
+<p>git rm test.txt<br>//从版本库中删除test.txt.</p>
+<p>git checkout — test.txt<br>//把误删的文件恢复到最新版本<br>//git checkout其实是用版本库里的版本替换工作区的版本，无论工作区市删除还是修改，都可以还原。</p>
+<p>git clone git@github.com:liupeijian/learngit.git<br>//克隆一个本地库。</p>
+<p>在本地的learngit仓库下运行命令<br>git remote add origin git@github.com:liupeijian/learngit.git<br>把一个已有的本地仓库与gitbub上的learngit仓库关联。<br>远程仓库的名字就是origin，这是git默认的叫法。</p>
+<p>把本地库的所有内容推送到远程库上<br>git push -u origin master<br>实际上是把当前分支master推送到远程。<br>由于远程库是空的，我们第一次推送master分支时，加上了-u参数，git不但会把本地的master分支内容推送到远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。</p>
+<p>从现在起，只要在本地作了提交，就可以通过命令<br>git push origin master<br>把本地master分支的最新修改推送到github.</p>
+<p>HEAD严格来说不是指向提交，而是指向master，master才是指向提交的，所以，HEAD指向的就是当前分支。<br>master分支是一条线，git用master指向最新的提交，再用HEAD指向master，就能确定当前分支，以及当前分支的提交点。</p>
+<p>创建新的分支dev，git创建一个指针叫dev，指向master相同的提交，再把HEAD指向dev，就表示当前分支在dev上</p>
+<p>从现在开始，对工作区的修改和提交就是针对dev分支了，工作完成后，可以把dev合并到master上，就是直接把master指向dev的当前提交。</p>
+<p>git branch dev<br>//创建dev分支<br>git checkout dev<br>//切换到dev分支上。</p>
+<p>git checkout -b dev<br>//创建并切换</p>
+<p>git branch<br>//列出所有分支，当前分支前面会标一个＊号。</p>
+<p>git checkout master<br>//切换回master分支。</p>
+<p>git merge dev<br>//把dev分支的工作成果合并到master分支上。</p>
+<p>git branch -d dev<br>//删除dev分支。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>看过好几遍有关于git的基本操作，看完没有用，很快就忘记了，我目前在用的git操作写成笔记，以后方便查阅，以后再用到git的其他操作再不断地添加进来。</p>
+<p>git init<br>//把这个目录变成git可以管理的仓库。</p>
+<p>git add readme]]>
+    </summary>
+    
+      <category term="Git" scheme="http://liupeijian.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[LintCode01]]></title>
+    <link href="http://liupeijian.com/2015/06/16/LintCode01/"/>
+    <id>http://liupeijian.com/2015/06/16/LintCode01/</id>
+    <published>2015-06-16T13:40:03.000Z</published>
+    <updated>2015-06-16T13:40:03.836Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[说文解字01]]></title>
