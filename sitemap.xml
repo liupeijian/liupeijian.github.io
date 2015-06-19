@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liupeijian.com/calligraphy/index.html</loc>
+    <lastmod>2015-06-19T04:31:55.053Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://liupeijian.com/calligraphy/hello.css</loc>
+    <lastmod>2015-06-19T04:24:20.845Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://liupeijian.com/2015/06/19/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C01/</loc>
+    <lastmod>2015-06-19T03:34:25.624Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://liupeijian.com/English/index.html</loc>
     <lastmod>2015-06-18T13:00:26.973Z</lastmod>
   </url>
@@ -17,11 +32,6 @@
   </url>
   
   <url>
-    <loc>http://liupeijian.com/calligraphy/index.html</loc>
-    <lastmod>2015-06-18T02:03:33.576Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://liupeijian.com/2015/06/16/Github%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2015-06-17T02:20:05.965Z</lastmod>
   </url>
@@ -29,11 +39,6 @@
   <url>
     <loc>http://liupeijian.com/2015/06/16/LintCode01/</loc>
     <lastmod>2015-06-17T01:08:08.464Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://liupeijian.com/calligraphy/hello.css</loc>
-    <lastmod>2015-06-16T13:05:58.216Z</lastmod>
   </url>
   
   <url>

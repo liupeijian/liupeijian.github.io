@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liupeijian.com/"/>
-  <updated>2015-06-18T09:33:19.927Z</updated>
+  <updated>2015-06-19T03:34:25.624Z</updated>
   <id>http://liupeijian.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[计算机网络01]]></title>
+    <link href="http://liupeijian.com/2015/06/19/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C01/"/>
+    <id>http://liupeijian.com/2015/06/19/计算机网络01/</id>
+    <published>2015-06-19T03:30:57.000Z</published>
+    <updated>2015-06-19T03:34:25.624Z</updated>
+    <content type="html"><![CDATA[<p>参考书：<a href="http://book.douban.com/subject/26176870/" target="_blank" rel="external">计算机网络：自顶向下方法</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>参考书：<a href="http://book.douban.com/subject/26176870/" target="_blank" rel="external">计算机网络：自顶向下方法</a></p>
+]]>
+    </summary>
+    
+      <category term="计算机网络" scheme="http://liupeijian.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[开发网站和教程]]></title>
