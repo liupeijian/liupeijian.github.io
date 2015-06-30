@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liupeijian.com/"/>
-  <updated>2015-06-24T02:23:49.989Z</updated>
+  <updated>2015-06-30T02:47:41.522Z</updated>
   <id>http://liupeijian.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[有意思的视频]]></title>
+    <link href="http://liupeijian.com/2015/06/30/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%86%E9%A2%91/"/>
+    <id>http://liupeijian.com/2015/06/30/有意思的视频/</id>
+    <published>2015-06-30T02:47:41.000Z</published>
+    <updated>2015-06-30T02:47:41.522Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[前端作业]]></title>
@@ -32,7 +45,7 @@
     <link href="http://liupeijian.com/2015/06/20/%E8%B7%91%E6%AD%A5%E4%B8%80%E5%B0%8F%E6%97%B6/"/>
     <id>http://liupeijian.com/2015/06/20/跑步一小时/</id>
     <published>2015-06-20T07:43:11.000Z</published>
-    <updated>2015-06-29T08:18:30.811Z</updated>
+    <updated>2015-06-29T09:43:50.569Z</updated>
     <content type="html"><![CDATA[<p>6月份跑了80公里，跑了15次。</p>
 ]]></content>
     <summary type="html">
