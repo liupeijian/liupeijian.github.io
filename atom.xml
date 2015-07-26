@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Keep calm and carry on]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liupeijian.com/"/>
-  <updated>2015-07-08T06:18:51.661Z</updated>
+  <updated>2015-07-24T04:40:46.699Z</updated>
   <id>http://liupeijian.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ps配置]]></title>
+    <link href="http://liupeijian.com/2015/07/24/ps%E9%85%8D%E7%BD%AE/"/>
+    <id>http://liupeijian.com/2015/07/24/ps配置/</id>
+    <published>2015-07-24T03:07:40.000Z</published>
+    <updated>2015-07-24T04:40:46.699Z</updated>
+    <content type="html"><![CDATA[<p>首选项设置<br>编辑-&gt;首选项-&gt;单位与标尺：标尺和文字的单位都改为像素</p>
+<p>面板设置：<br>在窗口菜单下：工具、选项、信息、图层、历史记录</p>
+<p>常用工具：</p>
+<ul><br>    <li>移动工具</li><br>    <li>矩形选框工具</li><br>    <li>魔棒工具</li><br>    <li>裁剪工具+切片工具</li><br>    <li>缩放工具</li><br>    <li>取色器</li><br></ul>
+
+<p>在“视图”菜单下开启：</p>
+<ul><br>    <li>对齐</li><br>    <li>标尺Ctrl+R</li><br>    <li>显示&gt;参考线Ctrl+</li><br>    (须勾选显示额外内容)<br></ul>
+
+<p>测量</p>
+<ul><br>    <li></li><br><br></ul>]]></content>
+    <summary type="html">
+    <![CDATA[<p>首选项设置<br>编辑-&gt;首选项-&gt;单位与标尺：标尺和文字的单位都改为像素</p>
+<p>面板设置：<br>在窗口菜单下：工具、选项、信息、图层、历史记录</p>
+<p>常用工具：</p>
+<ul><br>    <li>移动工具</li><br>    <li]]>
+    </summary>
+    
+      <category term="前端" scheme="http://liupeijian.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[DOM事件]]></title>
